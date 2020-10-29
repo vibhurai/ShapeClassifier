@@ -17,18 +17,18 @@ run tests using the command `gradle test`. There is an example test defined in
 this repo. When this test is executed by running `gradle test` on the command
 line you should see the following ouput:
 
- $  gradle test
+    $  gradle test
 
-> Task :test FAILED
+    > Task :test FAILED
 
-ShapeClassifierTest > example() FAILED
-    org.opentest4j.AssertionFailedError at ShapeClassifierTest.java:15
+    ShapeClassifierTest > example() FAILED
+        org.opentest4j.AssertionFailedError at ShapeClassifierTest.java:15
 
-1 test completed, 1 failed
+    1 test completed, 1 failed
 
-FAILURE: Build failed with an exception.
+    FAILURE: Build failed with an exception.
 
-* What went wrong:
-Execution failed for task ':test'.
-> There were failing tests. See the report at: file:// [PATH TO REPORT]
-``
+    * What went wrong:
+    Execution failed for task ':test'.
+    > There were failing tests. See the report at: file:// [PATH TO REPORT]
+
