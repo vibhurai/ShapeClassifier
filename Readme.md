@@ -16,7 +16,7 @@ When you submit this assignment GitHub classroom will automatically build and
 run tests using the command `gradle test`. There is an example test defined in
 this repo. When this test is executed by running `gradle test` on the command
 line you should see the following ouput:
-``
+
  $  gradle test
 
 > Task :test FAILED
