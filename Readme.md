@@ -14,6 +14,7 @@ are roughly as follows:
 3. Construct and execute JUnit test cases for each test case.
 
 # Whitebox Testing
+
 Derive test cases from the source code of the `evaluateGuess` method using whitebox testing. Using branch coverage as a guide, generate
 test cases that achieve the highest possible coverage numbers. 
 
