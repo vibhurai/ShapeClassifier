@@ -1,16 +1,27 @@
-# F20-17323-HW2: ShapeClassifier
-This is the repository for *HW2: Testing*. The complete instructions for the assignment are available in Canvas.
+# ShapeClassifier
+This is the repository to experiment with testing. 
 
-# Overview 
-In this homework, you will test a program using both black‐box and white‐box testing techniques. You will then evaluate the test suites to assess their efficiency and effectiveness.
+# Blackbox Testing
 
-# Learning Goals:
-* Gain experience with both blackbox and whitebox test case design techniques.
-* Gain an appreciation of the strengths and weaknesses of black and white box testing
-* Use coverage measures to assess the adequacy of a given test suite.
-* Evaluate the efficiency of the test suites employed.
+For this task will create test cases from the ShapeClassifier specification (below). You should
+refrain from looking at the code as a source for test cases. You will test this program by identifying
+equivalence classes for inputs, encoding these partitions as an ACTS test specification (conditions
+and constraints), and using ACTS to generate test inputs accordingly. For this question, your steps
+are roughly as follows:
 
-# Automated Building
+1. Identify equivalence classes and constraints for the ShapeClassifier inputs
+2. Translate the equivalence classes generated in step A to test cases using weak equivalence class testings
+3. Construct and execute JUnit test cases for each test case.
+
+# Whitebox Testing
+Derive test cases from the source code of the `evaluateGuess` method using whitebox testing. Using branch coverage as a guide, generate
+test cases that achieve the highest possible coverage numbers. 
+
+1. Study the code and create a JUnit testcase to traverse a branch.
+2. Execute that testcase under a code coverage tool and observe the branch coverage.
+3. Repeat this process selecting a different branch to exercise until you run out of time.
+
+# Building with Gradle
 
 When you submit this assignment GitHub classroom will automatically build and
 run tests using the command `gradle test`. There is an example test defined in
