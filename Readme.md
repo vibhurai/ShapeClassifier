@@ -22,6 +22,10 @@ test cases that achieve the highest possible coverage numbers.
 2. Execute that testcase under a code coverage tool and observe the branch coverage.
 3. Repeat this process selecting a different branch to exercise until you run out of time.
 
+# Building with Maven
+
+`mvn test`
+
 # Building with Gradle
 
 When you submit this assignment GitHub classroom will automatically build and
