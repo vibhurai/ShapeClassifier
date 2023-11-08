@@ -22,15 +22,18 @@ test cases that achieve the highest possible coverage numbers.
 2. Execute that testcase under a code coverage tool and observe the branch coverage.
 3. Repeat this process selecting a different branch to exercise until you run out of time.
 
-# Building with Maven
+# Building and Testing with Maven
 
+`mvn compile`
 `mvn test`
 
-# Building with Gradle
+# Building and Testing with Gradle
 
-When you submit this assignment GitHub classroom will automatically build and
-run tests using the command `gradle test`. There is an example test defined in
-this repo. When this test is executed by running `gradle test` on the command
+When can build and run tests using the command `gradle test`. 
+
+# Example Test
+
+There is an example test defined in this repo. This test will fail because the software has a bug. When this test is executed by running `gradle test` on the command
 line you should see the following ouput:
 
     $  gradle test
