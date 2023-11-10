@@ -14,13 +14,13 @@ public class ShapeClassifier {
 	 * 1. Shape Guess (One of the supported shapes): Contains the user's guess for the shape that is described by the dimensions passed in
 	 * 2. Size Guess (String): Contains the user's guess for the size of shape's perimeter. More rules on this provided below
 	 * 3. Even/Odd Guess (boolean): Contains the user's guess for whether the shape's perimeter is odd or even ("Yes" = Even)
-	 * String arg is of following format: <ShapeGuess,SizeGuess,EvenOddGuess,Params>
+  	 * String arg is of following format: <ShapeGuess,SizeGuess,EvenOddGuess,Params>
 	 * Note: Params is a comma separated string containing the length of each side of the shape.
 	 *
 	 * Supported shapes: "Line", "Circle", "Ellipse", "Rectangle", "Square", "Equilateral", "Isosceles", "Scalene"
 	 * Supported size: "Small", "Large"
 	 *
-	 * For example, for an equilateral triangle, it could be Params = 100,100,100
+	 * For example, for an equilateral triangle, the Params could be = 100,100,100
 	 * 
 	 * The method returns "Yes" if all 3 guesses are correct. For any incorrect guesses, it returns a comma-separated string
 	 * indicating which guesses were incorrect.
