@@ -11,8 +11,8 @@ public class ShapeClassifier {
 
 	/**
 	 * This method takes in a comma-separated string argument containing the dimensions of a shape and 3 guess values, namely: 
-	 * 1. Shape Guess (boolean): Contains the user's guess for the shape that is described by the dimensions passed in
-	 * 2. Size Guess (boolean): Contains the user's guess for the size of shape's perimeter. More rules on this provided below
+	 * 1. Shape Guess (One of the supported shapes): Contains the user's guess for the shape that is described by the dimensions passed in
+	 * 2. Size Guess (int): Contains the user's guess for the size of shape's perimeter. More rules on this provided below
 	 * 3. Even/Odd Guess (boolean): Contains the user's guess for whether the shape's perimeter is odd or even ("Yes" = Even)
 	 * String arg is of following format: <ShapeGuess,SizeGuess,EvenOddGuess,Params>
 	 * Note: Params is a comma separated string containing the length of each side of the shape.
