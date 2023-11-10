@@ -9,7 +9,26 @@ public class ShapeClassifier {
 		badGuesses = 0;
 	}
 
-	// return Yes if the guess is correct, No otherwise
+	/**
+	 * This method takes in a comma-separated string argument containing the dimensions of a shape and 3 guess values, namely: 
+	 * 1. Shape Guess (boolean): Contains the user's guess for the shape that is described by the dimensions passed in
+	 * 2. Size Guess (boolean): Contains the user's guess for the size of shape's perimeter. More rules on this provided below
+	 * 3. Even/Odd Guess (boolean): Contains the user's guess for whether the shape's perimeter is odd or even ("Yes" = Even)
+	 * String arg is of following format: <ShapeGuess,SizeGuess,EvenOddGuess,Params>
+	 * Note: Params is a comma separated string containing the length of each side of the shape.
+	 * For example, for an equilateral triangle, it could be Params = 100,100,100
+	 * 
+	 * The method returns "Yes" if all 3 guesses are correct. For any incorrect incorrect guesses, it returns a comma-separated string
+	 * indicating which guesses were incorrect.
+	 * -> If >=3 guesses are incorrect then the program prints an error message and exits
+	 * -> If the shape guess is incorrect, then the program returns a message with a suggestion for the shape guess
+	 * -> If the size or even/odd guesses are incorrect, then the program returns a message indicating the same
+	 * 
+	 * Supported shapes: "Line", "Circle", "Ellipse", "Rectangle", "Square", "Equilateral", "Isosceles", "Scalene"
+	 * If the perimeter of the shape 
+	 * -> exceeds 100, it is a "Large" shape
+	 * -> lesser than 10, it is a "Small" shape
+	 */
 	public String evaluateGuess(String arg) {
 
 
