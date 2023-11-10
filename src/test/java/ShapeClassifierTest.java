@@ -12,6 +12,6 @@ public class ShapeClassifierTest {
     public void example() {
         ShapeClassifier s = new ShapeClassifier();
         String answer = s.evaluateGuess("Equilateral,Large,Yes,100,100,100");
-        assertEquals(answer, "Yes");
+        assertEquals("Yes", answer);
     }
 }
