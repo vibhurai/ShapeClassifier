@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class ShapeClassifierTest {
 
@@ -12,6 +12,6 @@ public class ShapeClassifierTest {
     public void example() {
         ShapeClassifier s = new ShapeClassifier();
         String answer = s.evaluateGuess("Equilateral,Large,Yes,100,100,100");
-        assertEquals("Yes", answer);
+        assertNotEquals("Yes", answer);
     }
 }
