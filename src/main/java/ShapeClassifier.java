@@ -27,7 +27,7 @@ public class ShapeClassifier {
 	 * Supported shapes: "Line", "Circle", "Ellipse", "Rectangle", "Square", "Equilateral", "Isosceles", "Scalene"
 	 * If the perimeter of the shape 
 	 * -> exceeds 100, it is a "Large" shape
-	 * -> lesser than 10, it is a "Small shape"
+	 * -> lesser than 10, it is a "Small" shape
 	 */
 	public String evaluateGuess(String arg) {
 
